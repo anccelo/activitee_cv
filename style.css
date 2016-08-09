@@ -1,0 +1,43 @@
+body
+{
+	background-image: url(img/sfondoCarta.jpg);
+}
+h1
+{
+	position: relative;
+	font-size: 3.0em;
+	color : blue;
+	text-align:  center;
+}
+h2
+{
+	font-family: 'AlexBrush-Regular', monospace, serif;
+	font-size: 2.0em;
+	text-shadow: 10px 2px 10px rgb(0,0,10);
+}
+p
+{
+	font-size: 1.2em;
+	font-family: monospace, georgia, fantasy,  serif;
+}
+.citazione
+{
+	color: rgb(100,100,250);
+	text-align:  center;
+}
+#foto
+{
+	border: 2px rgb(50,50,150) solid;
+	box-shadow: 10px 2px 5px rgb(50,50,150);
+	position: right;
+	float: left;
+}
+.sotto
+{
+	clear: both;
+}
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'AlexBrush-Regular';
+    src: url('AlexBrush-Regular.ttf');
+}
+
