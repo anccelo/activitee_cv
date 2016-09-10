@@ -1,28 +1,93 @@
 body
 {
+
 	background-image: url(img/sfondoCarta.jpg);
+}
+#main_wrapper
+{
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+
+.HeS
+{
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+}
+header 
+{
+	height: 30%;
+	width: 90%;
+	border-color: rgb(0,0,171); 
+	border-style: groove;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	font-family: georgia;
+	margin-top: -20px;
+}
+header p 
+{
+	font-size: 2em;
+}
+#testo
+{
+	display: flex;
+	flex-direction: column;
+}
+
+header a
+{
+	margin: auto;
+	
+}
+nav
+{
+	background-color: rgb(233 ,114,19);/*giallo sabbia*/
+	border-color: rgb(0,0,171); 
+	border-style: double;
+	border-radius: 20px;
+	backface-visibility:hidden;
+	height: 100%;
+	width: 100px;
+}
+section
+{
+	display: flex;
+	width: 90%;
+}
+section h2
+{
+	margin-left: 50px;
+  
 }
 h1
 {
 	position: relative;
 	font-size: 3.0em;
-	color : blue;
-	text-align:  center;
+	color:rgb(50,0,100);
+	text-align: center;
+	
 }
 h2
 {
 	font-family: 'AlexBrush-Regular', monospace, serif;
 	font-size: 2.0em;
 	text-shadow: 10px 2px 10px rgb(0,0,10);
+	color:rgb(50,0,100);
 }
 p
 {
 	font-size: 1.2em;
 	font-family: monospace, georgia, fantasy,  serif;
+	overflow: auto;
 }
 .citazione
 {
-	color: rgb(100,100,250);
+	font-family: 'Rotulona-Hand-FFP-font.ttf';
+	color: rgb(50,0,150);
 	text-align:  center;
 }
 #foto
@@ -36,8 +101,18 @@ p
 {
 	clear: both;
 }
+.element
+{
+	width: 33%;
+}
 @font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
     font-family: 'AlexBrush-Regular';
-    src: url('AlexBrush-Regular.ttf');
+    src: url('font/AlexBrush-Regular.ttf');
 }
+@font-face {
+	font-family: 'Rotulona-Hand-FFP-font.ttf';
+    src: url('font/Rotulona-Hand-FFP-font.ttf');
+}
+    
+
 
