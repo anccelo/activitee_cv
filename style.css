@@ -10,6 +10,32 @@ body
 	display: flex;
 }
 
+@media screen and (max-width: 1024px)
+{
+	header
+	{
+		height:20%;
+	}
+	nav 
+	{
+		display: none;
+	}
+	.citazione
+	{
+		font-size: 1.5em;
+	}
+
+	section
+	{
+		flex-direction: column;
+
+	}
+}
+.element h2
+{
+	text-align: left;
+ justify-content: space-around;
+}
 .HeS
 {
 	margin: 50px;
@@ -18,8 +44,8 @@ body
 }
 header 
 {
-	height: 30%;
-	width: 90%;
+	height: auto;
+	width: 100%;
 	border-color: rgb(0,0,171); 
 	border-style: groove;
 	border-radius: 10px;
@@ -56,7 +82,7 @@ nav
 section
 {
 	display: flex;
-	width: 90%;
+	width: 100%;
 }
 section h2
 {
@@ -101,10 +127,7 @@ p
 {
 	clear: both;
 }
-.element
-{
-	width: 33%;
-}
+
 @font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
     font-family: 'AlexBrush-Regular';
     src: url('font/AlexBrush-Regular.ttf');
